@@ -1,0 +1,100 @@
+:root{
+    --sendMessageHeight: 52px
+}
+
+#panel_view-on-phone{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 8px;
+    margin-right: 8px;
+    font-size: 30px;
+}
+
+#online_icon {
+    color: rgb(18, 230, 18);
+    width: 4px;
+    margin-right: 12px;
+    font-size: 12px;
+    animation-name: colorChange;
+    animation-duration: 1s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transform-origin: center;
+
+
+}
+
+#users_sidebar{
+    display: flex;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#panel_view-on-phone{
+    display: none;
+}
+
+h2.room-title{
+    background-image: linear-gradient(rgb(137, 119, 161), rgb(41, 41, 9));
+}
+
+
+button{
+    border-radius: 8px;
+}
+
+
+
+
+@keyframes colorChange {
+    from {
+        color: rgba(6, 114, 20, 0.651);
+    }
+    to {
+        color: rgb(152, 255, 17);
+    }
+}
+
+
+
+
+@media screen and (max-width: 376px) {
+    #send-location{
+        display: none;
+    }
+
+    #sidebar{
+        display: none;
+        position: fixed;
+        height: calc(100vh - var(--sendMessageHeight));
+    }
+
+    div.compose{
+        margin-top: 0;
+        padding: 5px 24px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    div.message{
+        width: 100%;
+    }
+
+    #message-form{
+        justify-content: space-between;
+        margin-right: 0;
+    }
+
+    #messages{
+        height: calc(100vh - var(--sendMessageHeight));
+        background-image: linear-gradient(rgb(241, 239, 243), rgb(228, 151, 151));
+    }
+
+    #panel_view-on-phone{
+        display: block;
+    }
+    
+}

@@ -1,0 +1,25 @@
+
+        <div class="message">
+            <p>
+                <span class="message__name">ADMIN</span>
+                <span class="message__meta">8:02 pm</span>
+            </p>
+            <p>Welcome</p>
+        </div>
+    
+        <div class="message">
+            <p>
+                <span class="message__name">quy</span>
+                <span class="message__meta">8:02 pm</span>
+            </p>
+            <p>123</p>
+        </div>
+    
+        <div class="message">
+            <p>
+                <span class="message__name">quy</span>
+                <span class="message__meta">8:03 pm</span>
+            </p>
+            <p>123123</p>
+        </div>
+    

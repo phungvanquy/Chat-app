@@ -1,0 +1,17 @@
+
+        <div class="message">
+            <p>
+                <span class="message__name">ADMIN</span>
+                <span class="message__meta">8:03 pm</span>
+            </p>
+            <p>Welcome</p>
+        </div>
+    
+        <div class="message">
+            <p>
+                <span class="message__name">mai</span>
+                <span class="message__meta">8:03 pm</span>
+            </p>
+            <p>hello</p>
+        </div>
+    
